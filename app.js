@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended: false}));
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'progate',
+  user: 'user',
   password: 'password',	
   database: 'blog'
 });
